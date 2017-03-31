@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理系统</title>
+<link rel="stylesheet" type="text/css" href="css/second.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
+<script src="js/jquery-1.9.1.js"></script>
+
+<script src="js/jquery.datetimepicker.js"></script>
+<script src="js/index.js"></script>
+</head>
+
+<body>
+<!------------------------当前位置------------------------>
+<div class="myguide">当前位置： 单据管理  >  已通过单据</div>
+
+<!------------------------当前位置------------------------>
+
+<!------------------------筛选条件------------------------>
+<div class="screening">
+	<div class="screeningfirst">筛选条件</div>
+    <div class="stretch">
+    	<!--------------------------------->
+        <div class="screeningsecond">
+        	<div class="textfloat">单据类型：</div> <div class="inputfloat"><select class="myselect"><option>抵押</option><option>质押</option><option>信用</option><option>过桥垫资</option><option>票据业务</option><option>项目贷款</option><option>担保</option><option>融资租赁</option></select></div>
+            <div class="textfloat margin_l_30">公司类型：</div> <div class="inputfloat"><select class="myselect"><option>银行</option><option>证券公司</option><option>会计事务所</option></select></div>
+            <div class="textfloat margin_l_30">甩单时间：</div> <div class="inputfloat"><input type="text" class="timetxt"  id="datetimepicker" placeholder="点击选择时间" /></div>
+            <div class="fontfloat">至</div>
+            <div class="inputfloat"><input type="text" class="timetxt"  placeholder="点击选择时间" /></div>
+        </div>
+        
+        <div class="screeningsecond">
+            <div class="textfloat">单据状态：</div> <div class="inputfloat2"><input type="radio" name="radioname" /> 满员  <input type="radio" name="radioname" /> 处理中  <input type="radio" name="radioname" /> 已完成  <input type="radio" name="radioname" /> 已过期</div>
+            
+        </div>
+        
+        <div class="screeningthird">
+            <div class="textfloat">关  键  字：</div> 
+            <div class="inputfloat">
+                <div class="key">
+                    <div class="myzoom"></div>
+                    <input type="text" class="text02" placeholder="广告标题/内容" />
+                </div>
+            </div>
+            
+            <div class="inputright"><div class="mybtn">确定</div></div>
+            
+        </div>
+        <!--------------------------------->
+    </div>
+    
+    
+</div>
+
+<div class="flexible"><div class="flextxt"><span>收起</span> <img src="images/arrow01.png" /></div></div>
+<!------------------------筛选条件------------------------>
+ 
+<!------------------------操作------------------------>
+<div class="filter">
+	<div class="mybtn">新建</div>
+    <div class="mybtn gbbtn">删除</div>
+    <div class="mybtn">置为失效</div>
+</div>
+<!------------------------操作------------------------>
+
+<!------------------------内容------------------------>
+<div class="maincontent">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mytab">
+      <tr class="trfirst">
+        <td width="30"><input type="checkbox" name="check01" /></td>
+        <td width="20%">标 题</td>
+        <td>小 类 <img src="images/arrdown.png" /></td>
+        <td>贷款金额 <img src="images/arrdown.png" /></td>
+        <td>甩单人</td>
+        <td>公司类型 <img src="images/arrdown.png" /></td>
+        <td>甩单时间 <img src="images/arrdown.png" /></td>
+        <td>状态 <img src="images/arrdown.png" /></td>
+        <td>接单人数/总计 <img src="images/arrdown.png" /></td>
+        <td>中标人</td>
+        <td>操作</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>车辆抵押贷款</td>
+        <td>100万</td>
+        <td>王经理</td>
+        <td>证券公司</td>
+        <td>2-12 14:23</td>
+        <td>处理中</td>
+        <td>10/30</td>
+        <td>李明明</td>
+        <td><a href="#">删 除</a></td>
+      </tr>
+       <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>车辆抵押贷款</td>
+        <td>100万</td>
+        <td>王经理</td>
+        <td>证券公司</td>
+        <td>2-12 14:23</td>
+        <td>处理中</td>
+        <td>10/30</td>
+        <td>李明明</td>
+        <td><a href="#">删 除</a></td>
+      </tr>
+       <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>车辆抵押贷款</td>
+        <td>100万</td>
+        <td>王经理</td>
+        <td>证券公司</td>
+        <td>2-12 14:23</td>
+        <td>处理中</td>
+        <td>10/30</td>
+        <td>李明明</td>
+        <td><a href="#">删 除</a></td>
+      </tr>
+       <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>车辆抵押贷款</td>
+        <td>100万</td>
+        <td>王经理</td>
+        <td>证券公司</td>
+        <td>2-12 14:23</td>
+        <td>处理中</td>
+        <td>10/30</td>
+        <td>李明明</td>
+        <td><a href="#">删 除</a></td>
+      </tr>
+      
+       
+    </table>
+    <!---------------------分页开始--------------------->
+    <div class="pages">
+    	<div class="paging">
+        共20页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">未页</a> <a href="#"><img src="images/excel.png" class="import" /> 导出</a>
+        </div>
+    </div>
+    <!---------------------分页结束--------------------->
+</div>
+
+<!----------------------删除弹出框开始--------------------------->
+<div class="popdel">
+	<div class="delcon">
+    	<div class="delfont">你确认要删除所选内容吗？</div>
+        <div class="delbtn"><input type="button" value="确 定" class="btndels01" /><input type="button" value="取 消" class="btndels02" /></div>
+    </div>
+    <div class="closes"></div>
+</div>
+  
+<!----------------------删除弹出框结束--------------------------->
+
+<!----------------------排序弹出框开始--------------------------->
+<div class="sort">
+	<div class="closing"></div>
+	<div class="sorting">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mytable">
+          <tr class="trfirst">
+            <td width="50">序 号</td>
+            <td width="60%">标 题</td>
+            <td class="aligncenter">排 序</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+            	<div class="sortup"></div>
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+          
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+            	<div class="sortup"></div>
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>4</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+            	
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+        </table>
+        <div class="delbtn"><input type="button" value="确 定" class="btndels01" /><input type="button" value="取 消" class="btndels02" /></div>
+    </div>
+    
+</div>
+  
+<!----------------------排序弹出框结束--------------------------->
+
+
+<!----------------------排序弹出框开始--------------------------->
+<div class="">
+</div>
+  
+<!----------------------排序弹出框结束--------------------------->
+
+<!--------------时间插件-------------->
+<script>
+$('.timetxt').datetimepicker();
+$('.timetxt').datetimepicker({value:'2015-04-15 05:03',step:10});
+</script>
+<!--------------时间插件-------------->
+</body>
+</html>

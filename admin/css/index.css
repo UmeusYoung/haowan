@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, blockquote, th, td {
+margin:0;
+padding:0;
+}
+body{
+font-family:"microsoft yahei";
+font-size:14px;
+background-color:#f5f3f3;
+}
+table {border-collapse:collapse;border-spacing:0;}
+img {border:0px; cursor:pointer}
+ul,li {list-style:none;}
+a{font-size:14px; color:#333}
+a:hover{color:#37a8e0}
+
+/*********************头部************************/
+.top{height:90px; background-color:#222;}
+.toplogo{width:150px; height:61px; float:left; margin-left:18px; background:url(../images/logo3.png) no-repeat; margin-top:15px;}
+.topright{height:30px; line-height:30px; vertical-align:middle; float:right; margin-right:3%; margin-top:28px}
+.funimg{width:30px; height:30px; float:left; margin-left:10px;}
+.img01{background:url(../images/position.png) no-repeat 50% 50%; }
+.img02{background:url(../images/user.png) no-repeat 50% 50%; }
+.img03{background:url(../images/out.png) no-repeat 50% 50%; }
+.funtext{ height:30px; width:auto; float:left; margin-left:5px; color:#FFF;}
+.arrdown{ margin-bottom:2px; margin-left:2px;}
+.split{ width:10px; height:30px; float:left; text-align:center; color:#666; margin-left:15px;}
+.mains{height:auto;}
+.mains:after{content:""; clear:both; display:block;}
+.mainleft{width:220px; background-color:#ebedf1;}
+.mainright{background-color:#fff;height:auto;}
+
+
+/*********************左侧************************/
+.menuleft{height:40px!important;height:50px; background-color:#ebedf1; padding-top:10px; vertical-align:middle; border-top:#fff solid 1px; cursor:pointer}
+.menucolor{background-color:#cad4dd;}
+.lefticon01{width:30px; height:30px; float:left; background:url(../images/icon01.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon02{width:30px; height:30px; float:left; background:url(../images/icon02.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon03{width:30px; height:30px; float:left; background:url(../images/icon03.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon04{width:30px; height:30px; float:left; background:url(../images/icon04.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon05{width:30px; height:30px; float:left; background:url(../images/icon05.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon06{width:30px; height:30px; float:left; background:url(../images/icon06.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon07{width:30px; height:30px; float:left; background:url(../images/icon07.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon08{width:30px; height:30px; float:left; background:url(../images/icon08.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon09{width:30px; height:30px; float:left; background:url(../images/icon09.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon10{width:30px; height:30px; float:left; background:url(../images/icon10.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon11{width:30px; height:30px; float:left; background:url(../images/icon11.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon12{width:30px; height:30px; float:left; background:url(../images/icon12.png) no-repeat 50% 50%; margin-left:10px}
+.lefticon13{width:30px; height:30px; float:left; background:url(../images/icon13.png) no-repeat 50% 50%; margin-left:10px}
+.meuntext{width:140px; height:30px; line-height:30px; vertical-align:middle; float:left; margin-left:10px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.direct01{width:15px; height:30px; float:left; background:url(../images/arrdown.png) no-repeat 50% 50%;}
+.direct02{width:15px; height:30px; float:left; background:url(../images/arrup.png) no-repeat 50% 50%;}
+
+.leftsecond{background-color:#f7f7f7; height:auto; display:none}
+.leftsecond:after{content:""; clear:both; display:block;}
+.secondmenu{height:40px; cursor:pointer; color:#333}
+.secondbg{ background-color:#ebedf1}
+.spantext{width:140px; float:left; height:40px; line-height:40px; vertical-align:middle; margin-left:48px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.spanimg{width:15px; height:40px;background:url(../images/arrleft.png) no-repeat 0% 50%; float:left; margin-left:5px;}
+
+
+/*********************底部************************/
+.bottom{height:90px; background-color:#333; line-height:90px; vertical-align:middle; text-align:center; color:#808080}

@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理系统</title>
+<link rel="stylesheet" type="text/css" href="css/second.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/index.js"></script>
+<script src="js/jquery.datetimepicker.js"></script>
+</head>
+
+<body>
+<!------------------------当前位置------------------------>
+<div class="myguide">当前位置： 内容运营管理  >  淘单  >  新增内容运营  >  上传图片</div>
+
+<!------------------------当前位置------------------------>
+ 
+<!------------------------内容开始------------------------>
+<div class="maincontent">
+	 
+     <div class="details">
+     	<div class="detailsfirst">用户信息</div>
+        <div class="detailsthird"></div>
+     </div>
+     
+     <div class="normal">
+     	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="addtable">
+          <tr>
+            <td width="10%">姓名</td>
+            <td><input type="text" class="text01 marleft0" /></td>
+          </tr>
+ 
+          <tr>
+            <td>图片</td>
+            <td>
+           	   <span></span>
+               <div class="normalbtom"><input type="button" value="选择图片" class="btndels01 marleft0"/></div>
+               <div class="normalbtom">说明：支持JPG,PNG,GIF,图片最佳尺寸：640*240</div>
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="10%">公司名称</td>
+            <td><input type="text" class="text01 marleft0" style="width:60%" /></td>
+          </tr>
+          
+          <tr>
+            <td>行业类型</td>
+            <td><select class="myselect"><option>抵押</option><option>贷款</option><option>担保</option></select></td>
+          </tr>
+          <tr>
+            <td>性别</td>
+            <td><input type="radio" name="choosecity" /> 男 &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="choosecity"  /> 女</td>
+          </tr>
+          
+           <tr>
+            <td>生日</td>
+            <td><input type="text" class="timetxt marleft0"  id="datetimepicker" placeholder="点击选择时间" /></td>
+          </tr>
+          <tr>
+            <td width="10%">联系电话</td>
+            <td><input type="text" class="text01 marleft0" /></td>
+          </tr>
+          <tr>
+            <td width="10%">邮箱</td>
+            <td><input type="text" class="text01 marleft0" /></td>
+          </tr>
+          
+           <tr>
+            <td>备注</td>
+            <td><textarea class="areashape"></textarea></td>
+          </tr>
+          
+          <tr>
+            <td>用户类型</td>
+            <td><input type="radio" name="choosecity2" /> 企业用户 &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="choosecity2"  /> 水军</td>
+          </tr>
+
+        </table>
+
+     
+     </div>
+     
+      <div class="details">
+     	<div class="detailsfirst">店铺信息</div>
+        <div class="detailsthird"></div>
+     </div>
+     
+     <div class="normal">
+     	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="addtable">
+          <tr>
+            <td width="10%">业务类型</td>
+            <td><select class="myselect"><option>抵押</option><option>贷款</option><option>担保</option></select></td>
+          </tr>
+ 
+          <tr>
+            <td>服务区域</td>
+            <td>
+           	   <select class="myselect"><option>广东省</option><option>湖北省</option><option>广西省</option></select>
+               <select class="myselect"><option>深圳</option><option>广州</option><option>东莞</option></select>
+            </td>
+          </tr>
+         
+          
+           <tr>
+            <td>业务简介</td>
+            <td><textarea class="areashape"></textarea></td>
+          </tr>
+      
+        </table>
+
+     </div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="addtable">
+         
+          <tr>
+            <td width="10%">&nbsp;</td>
+            <td><input type="button" value="保 存" class="btndels01"  />  <input type="button" value="取 消" class="btndels02" /></td>
+          </tr>
+          
+        </table>
+ 
+     
+</div>
+<!------------------------内容结束------------------------>
+
+<!--------------时间插件-------------->
+<script>
+$('.timetxt').datetimepicker();
+$('.timetxt').datetimepicker({value:'2015-04-15 05:03',step:10});
+</script>
+<!--------------时间插件-------------->
+
+</body>
+</html>

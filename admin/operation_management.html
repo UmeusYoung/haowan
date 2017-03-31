@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理系统</title>
+<link rel="stylesheet" type="text/css" href="css/second.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
+<script src="js/jquery-1.9.1.js"></script>
+
+<script src="js/jquery.datetimepicker.js"></script>
+<script src="js/index.js"></script>
+</head>
+
+<body>
+<!------------------------当前位置------------------------>
+<div class="myguide">当前位置： 内容管理  >  未发布</div>
+
+<!------------------------当前位置------------------------>
+
+<!------------------------筛选条件------------------------>
+<div class="screening">
+	<div class="screeningfirst">筛选条件</div>
+    <div class="stretch">
+    	<!--------------------------------->
+        <div class="screeningsecond">
+    	<div class="textfloat">创建时间：</div> <div class="inputfloat"><input type="text" class="timetxt"  id="datetimepicker" placeholder="点击选择时间" /></div>
+        <div class="fontfloat">至</div>
+        <div class="inputfloat"><input type="text" class="timetxt"  placeholder="点击选择时间" /></div>
+        </div>
+        
+        <div class="screeningsecond">
+            <div class="textfloat">广告状态：</div> <div class="inputfloat"><input type="radio" name="radioname" /> 已发布  <input type="radio" name="radioname" /> 未发布  <input type="radio" name="radioname" /> 已删除</div>
+            
+        </div>
+        
+        <div class="screeningthird">
+            <div class="textfloat">关  键  字：</div> 
+            <div class="inputfloat">
+                <div class="key">
+                    <div class="myzoom"></div>
+                    <input type="text" class="text02" placeholder="广告标题/内容" />
+                </div>
+            </div>
+            
+            <div class="inputright"><div class="mybtn">确定</div></div>
+            
+        </div>
+        <!--------------------------------->
+    </div>
+    
+    
+</div>
+
+<div class="flexible"><div class="flextxt">收起 <img src="images/arrow01.png" /></div></div>
+<!------------------------筛选条件------------------------>
+ 
+<!------------------------操作------------------------>
+<div class="filter">
+	<div class="mybtn paixu">排序</div>
+    <div class="mybtn gbbtn">删除</div>
+</div>
+<!------------------------操作------------------------>
+
+<!------------------------内容------------------------>
+<div class="maincontent">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mytab">
+      <tr class="trfirst">
+        <td width="30"><input type="checkbox" name="check01" /></td>
+        <td>图 片</td>
+        <td>标 题</td>
+        <td>发布者</td>
+        <td>发布时间 <img src="images/arrdown.png" /></td>
+        <td>剩余时间 <img src="images/arrdown.png" /></td>
+        <td>访问量 <img src="images/arrdown.png" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td><div class="imgfixed"><img src="images/001.jpg" /></div></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>彰显恒</td>
+        <td>2015-06-01 14:20:30</td>
+        <td>约2小时15分</td>
+        <td>19055</td>
+      </tr>
+      
+      <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td><div class="imgfixed"><img src="images/001.jpg" /></div></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>彰显恒</td>
+        <td>2015-06-01 14:20:30</td>
+        <td>约2小时15分</td>
+        <td>19055</td>
+      </tr>
+      
+      <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td><div class="imgfixed"><img src="images/001.jpg" /></div></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>彰显恒</td>
+        <td>2015-06-01 14:20:30</td>
+        <td>约2小时15分</td>
+        <td>19055</td>
+      </tr>
+      
+      <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td><div class="imgfixed"><img src="images/001.jpg" /></div></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>彰显恒</td>
+        <td>2015-06-01 14:20:30</td>
+        <td>约2小时15分</td>
+        <td>19055</td>
+      </tr>
+      
+      <tr>
+        <td><input type="checkbox" name="check01" /></td>
+        <td><div class="imgfixed"><img src="images/001.jpg" /></div></td>
+        <td>连连支付: 获“2015中国互联网金融创新品牌奖”</td>
+        <td>彰显恒</td>
+        <td>2015-06-01 14:20:30</td>
+        <td>约2小时15分</td>
+        <td>19055</td>
+      </tr>
+       
+    </table>
+    <!---------------------分页开始--------------------->
+    <div class="pages">
+    	<div class="paging">
+        共20页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">未页</a> <a href="#"><img src="images/excel.png" class="import" /> 导出</a>
+        </div>
+    </div>
+    <!---------------------分页结束--------------------->
+</div>
+
+<!----------------------删除弹出框开始--------------------------->
+<div class="popdel">
+	<div class="delcon">
+    	<div class="delfont">你确认要删除所选内容吗？</div>
+        <div class="delbtn"><input type="button" value="确 定" class="btndels01" /><input type="button" value="取 消" class="btndels02" /></div>
+    </div>
+    <div class="closes"></div>
+</div>
+  
+<!----------------------删除弹出框结束--------------------------->
+
+<!----------------------排序弹出框开始--------------------------->
+<div class="sort">
+	<div class="closing"></div>
+	<div class="sorting">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mytable">
+          <tr class="trfirst">
+            <td width="50">序 号</td>
+            <td width="60%">标 题</td>
+            <td class="aligncenter">排 序</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+            	<div class="sortup"></div>
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+          
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+            	<div class="sortup"></div>
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>4</td>
+            <td>
+            科技日报社社长、科技部秘书长李平出席“金融科技·惠民”主题惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动惠民”主题讲座活动
+		    </td>
+            <td>
+            <div class="reorder">
+            	
+                <div class="sortdown"></div>
+            </div>
+            </td>
+          </tr>
+        </table>
+        <div class="delbtn"><input type="button" value="确 定" class="btndels01" /><input type="button" value="取 消" class="btndels02" /></div>
+    </div>
+    
+</div>
+  
+<!----------------------排序弹出框结束--------------------------->
+
+
+<!----------------------排序弹出框开始--------------------------->
+ 
+  
+<!----------------------排序弹出框结束--------------------------->
+
+<!--------------时间插件-------------->
+<script>
+$('.timetxt').datetimepicker();
+$('.timetxt').datetimepicker({value:'2015-04-15 05:03',step:10});
+</script>
+<!--------------时间插件-------------->
+</body>
+</html>
